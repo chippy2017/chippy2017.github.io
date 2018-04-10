@@ -3129,3 +3129,8 @@ strong {
 	color: #FFF!important;
 }
 
+.about-img {
+	margin-top: 50px;
+	border: 1px solid #FFF;
+	box-shadow: 0 0 9px #FFF;
+}
