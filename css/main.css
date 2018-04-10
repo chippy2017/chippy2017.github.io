@@ -1645,6 +1645,8 @@ header .header-logo a {
 	background-size: cover;
 	min-height: 804px;
 	position: relative;
+	z-index: -10;
+	background-attachment: fixed;
 }
 
 #home .gradient-overlay {
