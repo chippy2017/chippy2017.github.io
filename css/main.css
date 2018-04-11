@@ -1045,43 +1045,6 @@ input::-moz-focus-inner {
  * Extend this object into your markup.
  *
  * --------------------------------------------------------------------- */
-.stats-tabs {
-	padding: 0;
-	margin: 3rem 0;
-}
-
-.stats-tabs li {
-	display: inline-block;
-	margin: 0 1.5rem 3rem 0;
-	padding: 0 1.5rem 0 0;
-	border-right: 1px solid #ccc;
-}
-
-.stats-tabs li:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-.stats-tabs li a {
-	display: inline-block;
-	font-size: 2.5rem;
-	font-family: "montserrat-bold", sans-serif;
-	border: none;
-	color: #252525;
-}
-
-.stats-tabs li a:hover {
-	color: #4C2405;
-}
-
-.stats-tabs li a em {
-	display: block;
-	margin: .6rem 0 0 0;
-	font-size: 1.4rem;
-	font-family: "montserrat-regular", sans-serif;
-	color: #4f4f4f;
-}
 
 /* ===================================================================
  *  07. common and reusable styles 
@@ -1470,6 +1433,9 @@ header .header-logo a {
 @media only screen and (max-width:768px) {
 	header .header-logo {
 		top: 27px;
+	}
+	.nav-list {
+		font-size:1.5em;
 	}
 
 	header .header-logo a {

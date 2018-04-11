@@ -29,7 +29,9 @@ and (min-device-width : 1024px)  {
 	#about {
 		text-align: center;
 	}
-
+	#about h1 {
+		font-size: 4.8rem;
+	}
 	#skills [class="col-skills"] {
 		width: 100%;
 	}
@@ -38,5 +40,9 @@ and (min-device-width : 1024px)  {
 	}
 	.glow-button {
 		height: 6.4rem;
+	}
+
+	.nav-list {
+		font-size: 1rem;
 	}
 }
