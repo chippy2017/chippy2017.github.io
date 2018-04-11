@@ -3,6 +3,18 @@
 /** IPHONE LANDSCAPE **/
 
 @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+	.header-button {
+		margin-top: 150px;
+		margin-left: 190px;
+			}
+}
+
+/** IPHONE PLUS LANDSCAPE **/
+
+@media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) { 
