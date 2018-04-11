@@ -3117,12 +3117,25 @@ footer .footer-social li:last-child {
 	box-shadow: 0 0 20px #FFF;
 }
 
+.glow-button {
+	text-shadow: 0 0 9px #FFF;
+	color: #FFF;
+	width: 90%;
+	text-shadow: 0 0 9px #FFF;
+	color: #FFF;
+	box-shadow: 0 0 20px #FFF;
+	border-radius: 5px;
+	border: #FFF solid 1px;
+	background-color: transparent;
+}
 .glow-box {
 	text-shadow: 0 0 9px #FFF;
 	border: #FFF;
 	border-bottom: 3px dashed;
 	border-width: 50%;
 }
+
+
 
 
 strong {
@@ -3138,3 +3151,8 @@ strong {
 .text-white {
 	color: #FFF!important;
 }
+
+a:visited {
+	color: #FFF!important;
+}
+]
