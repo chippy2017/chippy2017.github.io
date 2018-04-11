@@ -3134,3 +3134,7 @@ strong {
 	border: 1px solid #FFF;
 	box-shadow: 0 0 9px #FFF;
 }
+
+.text-white {
+	color: #FFF!important;
+}
