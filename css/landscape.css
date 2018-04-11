@@ -1,0 +1,14 @@
+/** LANDSCAPE QUERIES **/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) { 
+	#header-logo {
+		margin-top: -100px;
+	}
+	.header-button {
+		margin-top: 150px;
+		margin-left: 190px;
+	}
+
+}
