@@ -3155,4 +3155,8 @@ strong {
 a:visited {
 	color: #FFF!important;
 }
-]
+
+img {
+	padding: 0;
+	margin: 0;
+}
